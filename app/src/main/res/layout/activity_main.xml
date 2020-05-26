@@ -35,6 +35,18 @@
             android:layout_marginTop="10dp"
             android:spinnerMode="dialog"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="지원 직군" />
+
+<!--    Web / Android / iOS / Server    -->
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
 
     </LinearLayout>
 </layout>

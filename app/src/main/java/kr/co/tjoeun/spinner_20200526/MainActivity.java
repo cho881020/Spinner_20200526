@@ -17,6 +17,7 @@ public class MainActivity extends BaseActivity {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         setupEvents();
         setValues();
+
     }
 
     @Override

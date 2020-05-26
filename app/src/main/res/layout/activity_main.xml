@@ -44,6 +44,7 @@
 <!--    Web / Android / iOS / Server    -->
 
         <Spinner
+            android:id="@+id/occSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

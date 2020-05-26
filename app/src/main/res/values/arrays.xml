@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="educations">
+        <item>초등학교 졸업</item>
+        <item>중학교 졸업</item>
+        <item>고등학교 졸업</item>
+        <item>전문대 졸업</item>
+        <item>4년제 대학 졸업</item>
+        <item>석사 졸업</item>
+        <item>박사 졸업</item>
+        <item>기타</item>
+    </string-array>
+</resources>

@@ -5,6 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -37,6 +39,16 @@ public class OccupationSpinnerAdapter extends ArrayAdapter<Occupation> {
         if (row == null) {
             row = inf.inflate(R.layout.occupation_spinner_list_item, null);
         }
+
+        ImageView iconImg = row.findViewById(R.id.iconImg);
+        TextView nameTxt = row.findViewById(R.id.nameTxt);
+
+        Occupation data = mList.get(position);
+
+        nameTxt.setText(data.getName());
+
+//        자바에서 이미지를 id로 세팅.
+        iconImg.setImageResource(data.getImageId());
 
         return row;
     }

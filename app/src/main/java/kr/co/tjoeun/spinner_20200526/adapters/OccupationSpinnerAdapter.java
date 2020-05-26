@@ -52,6 +52,27 @@ public class OccupationSpinnerAdapter extends ArrayAdapter<Occupation> {
 
         return row;
     }
+
+    @Override
+    public View getDropDownView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+        View row = convertView;
+
+        if (row == null) {
+            row = inf.inflate(R.layout.occupation_spinner_list_item, null);
+        }
+
+        ImageView iconImg = row.findViewById(R.id.iconImg);
+        TextView nameTxt = row.findViewById(R.id.nameTxt);
+
+        Occupation data = mList.get(position);
+
+        nameTxt.setText(data.getName());
+
+//        자바에서 이미지를 id로 세팅.
+        iconImg.setImageResource(data.getImageId());
+
+        return row;
+    }
 }
 
 

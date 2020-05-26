@@ -10,4 +10,16 @@
         <item>박사 졸업</item>
         <item>기타</item>
     </string-array>
+<!--    독서, 음악감상, 영화감상, 게임, 축구, 야구관람, 등산-->
+
+    <string-array name="hobbys">
+        <item>독서</item>
+        <item>음악감상</item>
+        <item>영화감상</item>
+        <item>게임</item>
+        <item>축구</item>
+        <item>야구관람</item>
+        <item>등산</item>
+    </string-array>
+
 </resources>
